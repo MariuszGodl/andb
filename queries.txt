@@ -1,0 +1,34 @@
+1. What age categories are the most popular
+
+2. What day of the week the most players
+
+3. What year had the most players
+
+4. Are summer months more popular
+
+5. What game categories are the most popular among kids
+
+6. What game categories are the most popular in 20-30 players tournaments
+
+7. Are tournaments with bigger prizes more popular
+
+8. Are cheaper tournaments more popular amongs kids
+
+9. Is increasing the winning prize for bronze impactful on number players
+
+10. Are there more bigger groups currently than in prevoius years
+
+
+gold 100
+silver 50
+bronze 30
+
+40
+
+180 / 40
+
+gold 50
+silver 30
+bronze 10
+
+90 / 
