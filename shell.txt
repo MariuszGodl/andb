@@ -1,0 +1,23 @@
+ssh andb36@153.19.52.175
+beeline
+!connect jdbc:hive2://
+
+hadoop fs -cat /user/andb36/date_dim.txt
+
+hadoop fs -ls /user/hive/warehouse/tournament_dw.db
+
+USE tournament_dw;
+SHOW TABLES;
+
+SELECT * FROM date_dim;
+SELECT * FROM junk_dim;
+SELECT * FROM boardgame_dim;
+SELECT * FROM participation_dim;
+SELECT * FROM tournament_organization_fact;
+
+SHOW PARTITIONS participation_dim;
+SHOW PARTITIONS tournament_organization_fact;
+
+DESCRIBE FORMATTED boardgame_dim;
+| Num Buckets:                  | 4                                                                               | NULL                        |
+| Bucket Columns:               | [id]
