@@ -32,7 +32,7 @@ SELECT 2, 2, 1, 2, 2, map('Gold',800,'Silver',500,'Bronze',300)
 UNION ALL
 SELECT 3, 3, 1, 3, 3, map('Gold',200,'Silver',100,'Bronze',50)
 UNION ALL
-SELECT 4, 1, 1, 2, 3, map('Gold',700,'Silver',400,'Bronze',200)
+SELECT 4, 1, 1, 2, 3, map('Gold',,'Silver',400,'Bronze',200)
 UNION ALL
 SELECT 5, 2, 2, 3, 1, map('Gold',900,'Silver',500,'Bronze',250);
 
